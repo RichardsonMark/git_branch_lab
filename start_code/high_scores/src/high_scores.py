@@ -1,5 +1,7 @@
 def latest(scores):
-    pass
+    length = len(scores)
+    return scores[length -1]
+   
 
 
 def personal_best(scores):
